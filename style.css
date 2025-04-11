@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.h1{
+    color: hsl(234, 29%, 20%);
+}
+
+.div-1{
+    display: flex;
+    gap: 20px;
+}
+
+.div-2{
+    display: flex;
+    gap: 20px;
+}
+
+.div-3{
+    display: flex;
+    gap: 20px;
+}
+
+.img-1{
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btn1{
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    margin-top: 10px;
+}
+
+.img-2{
+    height: 400px;
+}
+
+
+
+@media (max-width: 380px) {
+
+   .container{
+    flex-direction: column-reverse;
+    text-align: center;
+   }
+
+   .left-div, .right-div{
+    width: 100%;
+   }
+
+}
